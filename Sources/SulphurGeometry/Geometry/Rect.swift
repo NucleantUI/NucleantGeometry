@@ -1,4 +1,5 @@
-import simd
+// import simd — SIMD4/SIMDScalar are Swift-stdlib builtins now; unneeded
+// unless/until this file starts using simd's math ops.
 
 /// A rectangle in 2D space using SIMD4 for performance
 ///

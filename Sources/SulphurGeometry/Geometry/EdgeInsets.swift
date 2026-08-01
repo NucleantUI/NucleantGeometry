@@ -1,4 +1,5 @@
-import simd
+// import simd — SIMD4/SIMDScalar are Swift-stdlib builtins now; unneeded
+// unless/until this file starts using simd's math ops.
 
 /// Edge insets for padding and margins
 ///
