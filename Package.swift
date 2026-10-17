@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SulphurGeometry",
+    name: "NucleantGeometry",
     platforms: [
         .iOS(.v15),
         .macOS(.v13)
@@ -12,19 +12,19 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "SulphurGeometry",
-            targets: ["SulphurGeometry"]
+            name: "NucleantGeometry",
+            targets: ["NucleantGeometry"]
         ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SulphurGeometry"
+            name: "NucleantGeometry"
         ),
         .testTarget(
-            name: "SulphurGeometryTests",
-            dependencies: ["SulphurGeometry"]
+            name: "NucleantGeometryTests",
+            dependencies: ["NucleantGeometry"]
         ),
     ],
     swiftLanguageModes: [.v6]

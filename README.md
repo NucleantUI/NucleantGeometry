@@ -1,8 +1,8 @@
-# SulphurGeometry
+# NucleantGeometry
 
 A Swift package of 2D geometry primitives built on SIMD types for GPU-friendly performance. Provides `Angle`, `Point`, `Size`, `Rect`, `EdgeInsets`, and `UnitPoint` — all generic over floating-point scalar types, all `Sendable`.
 
-Part of the [Sulphur](https://github.com/SulphurUI) framework ecosystem. No dependencies.
+Part of the [Nucleant](https://github.com/NucleantUI) framework ecosystem. No dependencies.
 
 ## Design
 
@@ -110,11 +110,11 @@ let anchor = UnitPoint.center.absolutePoint(in: RectF.rect(x: 0, y: 0, width: 20
 
 ```swift
 // Package.swift
-.package(path: "../SulphurGeometry"),  // local development
-// or: .package(url: "https://github.com/SulphurUI/SulphurGeometry", from: "x.x.x")
+.package(path: "../NucleantGeometry"),  // local development
+// or: .package(url: "https://github.com/NucleantUI/NucleantGeometry", from: "x.x.x")
 
 // target dependencies
-.product(name: "SulphurGeometry", package: "SulphurGeometry"),
+.product(name: "NucleantGeometry", package: "NucleantGeometry"),
 ```
 
 ## License
